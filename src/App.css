@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   min-height: calc(100vh - 60px);
-    background-color: #f2f2f7;
-    padding: 1rem;
+  background-color: #f2f2f7;
+  padding: 1rem;
 }
 
 .App-logo {
@@ -19,7 +19,63 @@
   color: #1f2f36;
 }
 
-.App-link {
-  color: #1DA1F2;
+table {
+  text-align: left;
 }
 
+:root {
+  --bs-primary: #0078c8;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: #035f84;
+}
+
+.App-link {
+  color: var(--bs-primary);
+}
+.increase {
+  background: none !important;
+  background-color: none !important;
+  border: none !important;
+}
+.increase-img {
+  height: 20px;
+  width: 20px;
+}
+.decrease {
+  background: none !important;
+  background-color: none !important;
+  border: none !important;
+}
+.decrease-img {
+  height: 20px;
+  width: 20px;
+}
+.erase {
+  color: #d73838;
+  background: none !important;
+  background-color: none !important;
+  border: none !important;
+}
+.erase-img {
+  height: 20px;
+  width: 20px;
+}
+.input {
+  display: inline;
+  width: 25%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
